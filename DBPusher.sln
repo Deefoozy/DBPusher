@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBPConsole", "DBPConsole\DBPConsole.csproj", "{4C5970DB-8513-438B-B960-F53217D9C620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBPConsole", "DBPConsole\DBPConsole.csproj", "{4C5970DB-8513-438B-B960-F53217D9C620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBPCore", "DBPCore\DBPCore.csproj", "{EF5274F3-0B37-4536-B318-3BEFDA35AD9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBPModels", "DBPModels\DBPModels.csproj", "{4D0D4D80-42F0-4CD9-B890-95A2EFB266EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4C5970DB-8513-438B-B960-F53217D9C620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C5970DB-8513-438B-B960-F53217D9C620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C5970DB-8513-438B-B960-F53217D9C620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5274F3-0B37-4536-B318-3BEFDA35AD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5274F3-0B37-4536-B318-3BEFDA35AD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5274F3-0B37-4536-B318-3BEFDA35AD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5274F3-0B37-4536-B318-3BEFDA35AD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0D4D80-42F0-4CD9-B890-95A2EFB266EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0D4D80-42F0-4CD9-B890-95A2EFB266EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0D4D80-42F0-4CD9-B890-95A2EFB266EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0D4D80-42F0-4CD9-B890-95A2EFB266EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
