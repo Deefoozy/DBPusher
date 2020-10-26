@@ -1,0 +1,6 @@
+CREATE TABLE TestTable (
+	id int NOT NULL,
+	description varchar(255),
+
+	PRIMARY KEY (id)
+);
